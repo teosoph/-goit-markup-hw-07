@@ -42,7 +42,6 @@ img {
   /* height: auto; */
 }
 
-
 /* CLASSES =========== */
 .hover:hover,
 .focus:focus {
@@ -58,7 +57,11 @@ img {
   margin-bottom: 0;
   padding-left: 0;
 }
-
+.img {
+  display: block;
+  /* max-width: 100%; */
+  /* height: auto; */
+}
 
 /* .title {
   font-weight: bold;

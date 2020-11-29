@@ -6,15 +6,17 @@
   margin-left: 32px;
   margin-right: 32px;
   margin-bottom: 30px;
+
+  li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+  }
 }
-.team-list-teammate-social-list li a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-}
+
 .team-list-teammate-social-list-item-link-svg {
   width: 44px;
   height: 44px;
@@ -32,7 +34,6 @@
 .team a:focus .team-list-teammate-social-list-item-link-svg {
   fill: var(--teammember-social-img-hover);
 }
-
 
 /* Footer socials connections ==================== */
 .footer__connections-socials {

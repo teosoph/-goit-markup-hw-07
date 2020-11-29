@@ -42,16 +42,16 @@
   border-radius: 4px;
 
   transition: transform 0.5s;
-}
 
-/* Modal title */
-.modal__title {
-  text-align: center;
+  /* Modal title */
+  .modal__title {
+    text-align: center;
 
-  font-family: Roboto;
-  font-weight: bold;
-  font-size: 20px;
-  letter-spacing: 0.03em;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 0.03em;
 
-  margin-bottom: 12px;
+    margin-bottom: 12px;
+  }
 }
