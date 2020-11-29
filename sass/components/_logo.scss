@@ -1,0 +1,43 @@
+/* Header logo ============== */
+.logo {
+  display: flex;
+  align-items: center;
+
+  font-family: var(--logo-text);
+  font-style: normal;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  color: var(--logo-color-1);
+
+  margin-right: 85px;
+}
+.logo-text {
+  font-family: var(--logo-text);
+  font-style: normal;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  color: var(--logo-color-3);
+}
+
+/* Footer logo ==================*/
+footer .logo-link {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+footer .logo-link {
+  font-family: var(--logo-text);
+  font-style: normal;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  color: var(--logo-color-2);
+}
+footer .logo-link span {
+  color: var(--logo-color-3);
+}
