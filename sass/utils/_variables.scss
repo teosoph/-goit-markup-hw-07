@@ -1,0 +1,39 @@
+:root {
+  /* header */
+  --logo-text: "Raleway";
+  --logo-color-1: #000000;
+  --logo-color-2: #ffffff;
+  --logo-color-3: #2196f3;
+  /* headrer menu */
+  --header-menu-title-color: #212121;
+  --header-menu-address-color: #757575;
+  /* main */
+  --font: "Roboto";
+  --font-color: #212121;
+  --background-color: #ffffff;
+  /* hero */
+  --hero-slider-background-color: rgb(47, 48, 58, 0.4);
+  --hero-title-color: #ffffff;
+  --title-color: #212121;
+  --description-text-color: #757575;
+
+  /* section-2 merits-list */
+  --merits-img-background-color: #f5f4fa;
+  /* section-3 doing-list*/
+  --doings-img-background: rgba(47, 48, 58, 0.8);
+  --doings-img-font: #ffffff;
+  /* clients list */
+  --clients-list-color: #afb1b8;
+  /* Team */
+  --teammember-social-img-hover: #fff;
+  /* footer */
+  --footer__conection-text-color: #ffffff;
+  --footer__address-text-color: rgba(255, 255, 255, 0.6);
+
+  /* portfolio */
+  --portfolio-list-item-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16),
+    0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
+
+  /* hover + focus */
+  --accent-color: #2196f3;
+}
