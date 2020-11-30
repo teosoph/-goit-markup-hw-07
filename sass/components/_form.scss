@@ -34,20 +34,21 @@
 
       border: 1px solid rgba(33, 33, 33, 0.2);
       border-radius: 4px;
-    }
-    .form__item-input:not(:last-child) {
-      margin-bottom: 10px;
-    }
-    .form__item-input:focus,
-    .form__item-input:hover {
-      outline: none;
-      border-color: var(--accent-color);
+
+      &:not(:last-child) {
+        margin-bottom: 10px;
+      }
+      &:focus,
+      &:hover {
+        outline: none;
+        border-color: $accent-color;
+      }
     }
 
     /* Inputs icons ================================= */
     .form__item-input:focus + .form__item-input-svg,
     .form__item-input:hover + .form__item-input-svg {
-      fill: var(--accent-color);
+      fill: $accent-color;
     }
     .form__item-input-svg {
       position: absolute;
@@ -115,7 +116,7 @@
       border: 2px solid rgb(33, 33, 33);
       border-radius: 4px;
       fill: rgb(255, 255, 255);
-      background-color: var(--background-color);
+      background-color: $background-color;
       transition-property: background-color, border-color;
       transition-duration: 250ms;
       transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -126,8 +127,8 @@
     }
 
     .form-input-check:checked ~ .form__castom-checkbox {
-      background-color: var(--accent-color);
-      border-color: var(--accent-color);
+      background-color: $accent-color;
+      border-color: $accent-color;
     }
 
     .hidden-form-checkbox {

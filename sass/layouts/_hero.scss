@@ -8,8 +8,8 @@
 
   background-image: linear-gradient(
       to bottom,
-      var(--hero-slider-background-color),
-      var(--hero-slider-background-color)
+      $hero-slider-background-color,
+      $hero-slider-background-color
     ),
     url(../images/main/section-1/slider.jpg);
   background-position: center;

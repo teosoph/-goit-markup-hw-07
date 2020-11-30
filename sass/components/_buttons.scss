@@ -1,3 +1,4 @@
+//*  Hero button  ========================*/
 .hero-button {
   background-color: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -17,44 +18,47 @@
   margin-right: auto;
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.hero-button:hover,
-.hero-button:focus {
-  background-color: var(--background-color);
-  color: var(--accent-color);
+
+  &:hover,
+  &:focus {
+    background-color: $background-color;
+    color: $accent-color;
+  }
 }
 
 /* Portfolio filter  ========================*/
 main .buttons {
   padding-top: 94px;
   padding-bottom: 94px;
-}
-.buttons-filter {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 34px;
 
-  li:not(:last-child) {
-    margin-right: 8px;
-  }
-  button {
-    font-family: var(--font);
-    color: var(--font-color);
-    font-weight: 500;
-    font-size: 16px;
-    letter-spacing: 0.03em;
-    line-height: 26px;
+  .buttons-filter {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 34px;
 
-    border-radius: 4px;
-    border: none;
+    li:not(:last-child) {
+      margin-right: 8px;
+    }
+    button {
+      font-family: $font;
+      color: $font-color;
+      font-weight: 500;
+      font-size: 16px;
+      letter-spacing: 0.03em;
+      line-height: 26px;
 
-    padding: 6px 22px 6px 22px;
-  }
-  button:hover,
-  button:focus {
-    color: var(--background-color);
-    background-color: var(--accent-color);
-    box-shadow: var(--portfolio-list-item-shadow);
+      border-radius: 4px;
+      border: none;
+
+      padding: 6px 22px 6px 22px;
+
+      &:hover,
+      &:focus {
+        color: $background-color;
+        background-color: $accent-color;
+        box-shadow: $portfolio-list-item-shadow;
+      }
+    }
   }
 }
 
@@ -73,7 +77,7 @@ main .buttons {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 
-  font-family: var(--font);
+  font-family: $font;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -83,19 +87,18 @@ main .buttons {
   p {
     margin-right: 10px;
   }
+
+  &::after {
+    content: "";
+    display: block;
+    background-image: url(../images/footer/icon-send.svg);
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+
+    margin-left: 10px;
+  }
 }
-
-.footer__button-tosign::after {
-  content: "";
-  display: block;
-  background-image: url(../images/footer/icon-send.svg);
-  width: 24px;
-  height: 24px;
-  background-repeat: no-repeat;
-
-  margin-left: 10px;
-}
-
 /* Modal button close ========== */
 .modal-btn-close {
   position: absolute;
@@ -113,15 +116,16 @@ main .buttons {
   border-radius: 50%;
 
   cursor: pointer;
-}
-.modal-btn-close:hover,
-.modal-btn-close:focus {
-  fill: var(--accent-color);
-  border-color: var(--accent-color);
-}
-.modal-btn-close__icon-x {
-  height: 11px;
-  width: 11px;
+
+  &:hover,
+  &:focus {
+    fill: $accent-color;
+    border-color: $accent-color;
+  }
+  .modal-btn-close__icon-x {
+    height: 11px;
+    width: 11px;
+  }
 }
 
 /* Form button accept ===============*/

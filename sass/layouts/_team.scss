@@ -7,7 +7,7 @@
     font-weight: bold;
     font-size: 36px;
     letter-spacing: 0.03em;
-    color: var(--title-color);
+    color: $title-color;
     text-align: center;
     margin-bottom: 50px;
   }
@@ -23,6 +23,10 @@
         0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
       border-radius: 0px 0px 4px 4px;
 
+      &:not(:last-child) {
+        margin-right: 30px;
+      }
+
       .team-list-teammate-img {
         display: block;
         width: 270px;
@@ -32,7 +36,7 @@
         font-weight: 500;
         font-size: 16px;
         letter-spacing: 0.03em;
-        color: var(--title-color);
+        color: $title-color;
         text-align: center;
         margin-bottom: 10px;
       }
@@ -40,13 +44,10 @@
         font-weight: normal;
         font-size: 16px;
         letter-spacing: 0.03em;
-        color: var(--description-text-color);
+        color: $description-text-color;
         text-align: center;
         margin-bottom: 16px;
       }
-    }
-    .team-list-teammate:not(:last-child) {
-      margin-right: 30px;
     }
   }
 }

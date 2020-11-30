@@ -1,13 +1,7 @@
 @import "./utils/variables";
+@import "./utils/mixins";
 
 @import "./base/common";
-
-@import "./components/buttons";
-@import "./components/menu";
-@import "./components/logo";
-@import "./components/social-icons";
-@import "./components/modal";
-@import "./components/form";
 
 @import "./layouts/section";
 @import "./layouts/container";
@@ -18,3 +12,10 @@
 @import "./layouts/team";
 @import "./layouts/clients";
 @import "./layouts/footer";
+
+@import "./components/buttons";
+@import "./components/menu";
+@import "./components/logo";
+@import "./components/social-icons";
+@import "./components/modal";
+@import "./components/form";

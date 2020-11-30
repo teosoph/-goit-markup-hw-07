@@ -1,5 +1,4 @@
 /* Portfolio Projects list ============================*/
-
 .projects-list {
   display: flex;
   flex-wrap: wrap;
@@ -11,12 +10,14 @@
     margin-bottom: 30px;
 
     border: 1px solid #eeeeee;
-  }
-  li:nth-child(3n) {
-    margin-right: 0;
-  }
-  li:nth-child(n + 7) {
-    margin-bottom: 0;
+
+    &:nth-child(3n) {
+      margin-right: 0;
+    }
+
+    &:nth-child(n + 7) {
+      margin-bottom: 0;
+    }
   }
 
   /* projects list items ===================================*/
@@ -37,29 +38,31 @@
     font-size: 18px;
     letter-spacing: 0.06em;
     line-height: 36px;
-    color: var(--title-color);
+    color: $title-color;
 
     margin-bottom: 8px;
   }
   .projects-list-item-description > p {
-    font-family: var(--font);
+    font-family: $font;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     letter-spacing: 0.03em;
     line-height: 30px;
-    color: var(--description-text-color);
+    color: $description-text-color;
   }
 
   /* Project item hover+focus ================== */
-  .projects-list-item-link:hover .projects-list-item-overlay,
-  .projects-list-item-link:focus .projects-list-item-overlay {
-    top: 0;
-  }
-  .projects-list-item-link:hover,
-  .projects-list-item-link:focus {
-    outline: 1px solid #eeeeee;
-    box-shadow: var(--portfolio-list-item-shadow);
+  .projects-list-item-link {
+    &:hover .projects-list-item-overlay,
+    &:focus .projects-list-item-overlay {
+      top: 0;
+    }
+    &:hover,
+    &:focus {
+      outline: 1px solid #eeeeee;
+      box-shadow: $portfolio-list-item-shadow;
+    }
   }
 
   /* Project item overlay ================== */
