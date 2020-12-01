@@ -21,8 +21,6 @@ body {
 
 img {
   display: block;
-  /* max-width: 100%; */
-  /* height: auto; */
 }
 
 /* CLASSES =========== */
@@ -42,16 +40,12 @@ img {
 }
 .img {
   display: block;
-  /* max-width: 100%; */
-  /* height: auto; */
 }
 
 .title {
-  font-weight: bold;
-  font-size: 36px;
-  letter-spacing: 0.03em;
+  text-align: center;
+
+  @include fonts($font, normal, 36px, bold, 0.03em);
 
   color: $title-color;
-
-  text-align: center;
 }
