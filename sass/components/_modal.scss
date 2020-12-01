@@ -31,8 +31,8 @@
 
   transform: translate(-50%, -50%) scale(1);
 
-  width: 528px;
-  height: 581px;
+  width: 448px;
+  height: 501px;
 
   padding: 40px;
 
@@ -46,11 +46,7 @@
   /* Modal title */
   .modal__title {
     text-align: center;
-
-    font-family: Roboto;
-    font-weight: bold;
-    font-size: 20px;
-    letter-spacing: 0.03em;
+    @include fonts($font, normal, 20px, bold, 0.03em);
 
     margin-bottom: 12px;
   }

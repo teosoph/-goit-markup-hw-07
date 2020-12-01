@@ -3,23 +3,15 @@
   display: flex;
   align-items: center;
 
-  font-family: $logo-text;
-  font-style: normal;
-  font-weight: bold;
+  @include fonts($logo-text, normal, 26px, bold, 0.03em);
   text-transform: capitalize;
-  font-size: 26px;
-  letter-spacing: 0.03em;
   color: $logo-color-1;
 
   margin-right: 85px;
 
   .logo-text {
-    font-family: $logo-text;
-    font-style: normal;
-    font-weight: bold;
+    @include fonts($logo-text, normal, 26px, bold, 0.03em);
     text-transform: capitalize;
-    font-size: 26px;
-    letter-spacing: 0.03em;
     color: $logo-color-3;
   }
 }
@@ -30,12 +22,8 @@ footer .logo-link {
 
   margin-bottom: 20px;
 
-  font-family: $logo-text;
-  font-style: normal;
-  font-weight: bold;
+  @include fonts($logo-text, normal, 26px, bold, 0.03em);
   text-transform: capitalize;
-  font-size: 26px;
-  letter-spacing: 0.03em;
   color: $logo-color-2;
 
   span {

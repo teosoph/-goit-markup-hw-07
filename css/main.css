@@ -117,11 +117,12 @@ header .container {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-weight: 500;
+  font-family: "Roboto";
+  font-style: normal;
   font-size: 14px;
+  font-weight: 500;
   letter-spacing: 0.02em;
   color: #757575;
-  font-style: normal;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -163,13 +164,14 @@ header .container {
   top: 200px;
   left: 50%;
   transform: translateX(-50%);
-  font-weight: 900;
+  text-align: center;
+  font-family: "Roboto";
+  font-style: normal;
   font-size: 44px;
-  line-height: 60px;
+  font-weight: 900;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
-  text-align: center;
+  color: white;
 }
 
 /*  Section 2  Merits =======================*/
@@ -197,8 +199,10 @@ header .container {
 }
 
 .merits .merits-list .merits-list-item h3 {
-  font-weight: bold;
+  font-family: "Roboto";
+  font-style: normal;
   font-size: 14px;
+  font-weight: bold;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
@@ -206,9 +210,10 @@ header .container {
 }
 
 .merits .merits-list .merits-list-item p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 24px;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
   letter-spacing: 0.03em;
   color: #757575;
 }
@@ -220,11 +225,6 @@ header .container {
 }
 
 .doings .title {
-  font-weight: bold;
-  font-size: 36px;
-  letter-spacing: 0.03em;
-  color: #212121;
-  text-align: center;
   margin-bottom: 50px;
 }
 
@@ -255,8 +255,9 @@ header .container {
   height: 70px;
   background-color: rgba(47, 48, 58, 0.8);
   font-family: "Roboto";
-  font-weight: 600;
+  font-style: normal;
   font-size: 14px;
+  font-weight: 600;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: white;
@@ -300,20 +301,24 @@ header .container {
 }
 
 .team .team-list .team-list-teammate h3 {
-  font-weight: 500;
+  text-align: center;
+  font-family: "Roboto";
+  font-style: normal;
   font-size: 16px;
+  font-weight: 500;
   letter-spacing: 0.03em;
   color: #212121;
-  text-align: center;
   margin-bottom: 10px;
 }
 
 .team .team-list .team-list-teammate p {
-  font-weight: normal;
+  text-align: center;
+  font-family: "Roboto";
+  font-style: normal;
   font-size: 16px;
+  font-weight: normal;
   letter-spacing: 0.03em;
   color: #757575;
-  text-align: center;
   margin-bottom: 16px;
 }
 
@@ -371,10 +376,10 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 252px;
   margin-left: auto;
   margin-right: auto;
   background: #2f303a;
-  height: 252px;
 }
 
 footer .container {
@@ -394,8 +399,8 @@ footer .container .footer__logo-contacts {
 footer .container .footer__contacts-address {
   font-family: "Roboto";
   font-style: normal;
-  font-weight: normal;
   font-size: 14px;
+  font-weight: normal;
   letter-spacing: 0.03em;
   color: white;
   margin-bottom: 9px;
@@ -409,29 +414,29 @@ footer .container .footer__contacts-list-email,
 footer .container .footer__contacts-list-tel {
   font-family: "Roboto";
   font-style: normal;
-  font-weight: normal;
   font-size: 14px;
+  font-weight: normal;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 
 footer .container .footer__connections p {
+  display: block;
+  margin-bottom: 20px;
   font-family: "Roboto";
   font-style: normal;
-  font-weight: bold;
   font-size: 14px;
+  font-weight: bold;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: white;
-  display: block;
-  margin-bottom: 20px;
 }
 
 footer .container .footer__subscription-title {
   font-family: "Roboto";
   font-style: normal;
-  font-weight: bold;
   font-size: 14px;
+  font-weight: bold;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: white;
@@ -616,8 +621,10 @@ footer .container .footer__subscription input {
 }
 
 .header-navigation-list a {
-  font-weight: 500;
+  font-family: "Roboto";
+  font-style: normal;
   font-size: 14px;
+  font-weight: 500;
   letter-spacing: 0.02em;
   color: #212121;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -671,10 +678,10 @@ footer .container .footer__subscription input {
   align-items: center;
   font-family: "Raleway";
   font-style: normal;
-  font-weight: bold;
-  text-transform: capitalize;
   font-size: 26px;
+  font-weight: bold;
   letter-spacing: 0.03em;
+  text-transform: capitalize;
   color: black;
   margin-right: 85px;
 }
@@ -682,10 +689,10 @@ footer .container .footer__subscription input {
 .logo .logo-text {
   font-family: "Raleway";
   font-style: normal;
-  font-weight: bold;
-  text-transform: capitalize;
   font-size: 26px;
+  font-weight: bold;
   letter-spacing: 0.03em;
+  text-transform: capitalize;
   color: #2196f3;
 }
 
@@ -695,10 +702,10 @@ footer .logo-link {
   margin-bottom: 20px;
   font-family: "Raleway";
   font-style: normal;
-  font-weight: bold;
-  text-transform: capitalize;
   font-size: 26px;
+  font-weight: bold;
   letter-spacing: 0.03em;
+  text-transform: capitalize;
   color: white;
 }
 
@@ -816,8 +823,8 @@ footer .logo-link span {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
-  width: 528px;
-  height: 581px;
+  width: 448px;
+  height: 501px;
   padding: 40px;
   background-color: white;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -828,9 +835,10 @@ footer .logo-link span {
 
 .modal .modal__title {
   text-align: center;
-  font-family: Roboto;
-  font-weight: bold;
+  font-family: "Roboto";
+  font-style: normal;
   font-size: 20px;
+  font-weight: bold;
   letter-spacing: 0.03em;
   margin-bottom: 12px;
 }
@@ -855,11 +863,10 @@ footer .logo-link span {
 
 .form__items .form__item .form__item-label {
   display: block;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
-  font-weight: normal;
   font-size: 12px;
-  line-height: 14px;
+  font-weight: normal;
   letter-spacing: 0.01em;
   color: #757575;
   margin-bottom: 4px;
@@ -868,9 +875,11 @@ footer .logo-link span {
 .form__items .form__item .form__item-input {
   display: block;
   z-index: 1;
-  width: 100%;
+  box-sizing: border-box;
+  width: 448px;
   height: 40px;
   padding-left: 42px;
+  padding-right: 16px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
 }
@@ -899,18 +908,17 @@ footer .logo-link span {
 }
 
 .form__items .form__item .form__message {
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
-  font-weight: normal;
   font-size: 14px;
-  line-height: 16px;
+  font-weight: normal;
   letter-spacing: 0.01em;
-  width: 100%;
+  width: 448px;
   height: 120px;
-  padding-left: 16px;
-  padding-top: 12px;
-  resize: none;
+  padding: 12px 16px;
   margin-bottom: 20px;
+  box-sizing: border-box;
+  resize: none;
 }
 
 .form__items .form__item .form__agreement-label {
@@ -919,23 +927,23 @@ footer .logo-link span {
   justify-content: center;
   flex-direction: row-reverse;
   margin-bottom: 30px;
-  font-family: Roboto;
-  font-weight: normal;
+  font-family: "Roboto";
+  font-style: normal;
   font-size: 14px;
-  line-height: 24px;
+  font-weight: normal;
   letter-spacing: 0.03em;
   color: #757575;
 }
 
 .form__items .form__item .form__agreement-label a {
-  font-family: Roboto;
-  font-weight: normal;
+  margin-left: 3px;
+  font-family: "Roboto";
+  font-style: normal;
   font-size: 14px;
-  line-height: 24px;
+  font-weight: normal;
   letter-spacing: 0.03em;
   color: #2196f3;
   text-decoration: underline;
-  margin-left: 3px;
 }
 
 .form__items .form__item .form__castom-checkbox {

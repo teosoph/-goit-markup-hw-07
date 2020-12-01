@@ -33,19 +33,19 @@
         margin-bottom: 30px;
       }
       h3 {
-        font-weight: 500;
-        font-size: 16px;
-        letter-spacing: 0.03em;
-        color: $title-color;
         text-align: center;
+
+        @include fonts($font, normal, 16px, 500, 0.03em);
+        color: $title-color;
+
         margin-bottom: 10px;
       }
       p {
-        font-weight: normal;
-        font-size: 16px;
-        letter-spacing: 0.03em;
-        color: $description-text-color;
         text-align: center;
+
+        @include fonts($font, normal, 16px, normal, 0.03em);
+        color: $description-text-color;
+
         margin-bottom: 16px;
       }
     }

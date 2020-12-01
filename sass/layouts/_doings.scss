@@ -3,12 +3,6 @@
   padding-bottom: 94px;
 
   .title {
-    font-weight: bold;
-    font-size: 36px;
-    letter-spacing: 0.03em;
-    color: $title-color;
-
-    text-align: center;
     margin-bottom: 50px;
   }
 
@@ -43,10 +37,7 @@
 
       background-color: $doings-img-background;
 
-      font-family: $font;
-      font-weight: 600;
-      font-size: 14px;
-      letter-spacing: 0.1em;
+      @include fonts($font, normal, 14px, 600, 0.1em);
       text-transform: uppercase;
       color: $doings-img-font;
     }
