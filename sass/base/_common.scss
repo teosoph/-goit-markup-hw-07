@@ -1,12 +1,11 @@
 * {
   padding: 0;
   margin: 0;
-}
 
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
+  &::before,
+  &::after {
+    box-sizing: inherit;
+  }
 }
 
 html {
@@ -14,27 +13,10 @@ html {
 }
 
 body {
-  font-family: $font;
-  font-size: 16px;
-  color: $font-color;
+  @include fonts($font, normal, 16px, 500, 0.03em);
 
+  color: $font-color;
   background-color: $background-color;
-}
-
-main {
-  font-style: normal;
-  font-weight: 500;
-  letter-spacing: 0.03em;
-  color: $font-color;
-}
-
-h1 {
-  margin: 0;
-}
-h1,
-h2,
-h3 {
-  margin-top: 0;
 }
 
 img {
@@ -49,8 +31,8 @@ img {
   color: $accent-color;
 }
 .link {
-  text-decoration: none;
   display: block;
+  text-decoration: none;
 }
 .list {
   list-style: none;
@@ -64,11 +46,12 @@ img {
   /* height: auto; */
 }
 
-/* .title {
+.title {
   font-weight: bold;
   font-size: 36px;
   letter-spacing: 0.03em;
+
   color: $title-color;
+
   text-align: center;
-  margin-bottom: 50px;
-} */
+}
