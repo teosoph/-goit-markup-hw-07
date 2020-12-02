@@ -31,7 +31,9 @@
         margin-bottom: 10px;
       }
       p {
-        @include fonts($font, normal, 24px, normal, 0.03em);
+        @include fonts($font, normal, 14px, normal, 0.03em);
+        line-height: 24px;
+
         color: $description-text-color;
       }
     }

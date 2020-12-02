@@ -212,9 +212,10 @@ header .container {
 .merits .merits-list .merits-list-item p {
   font-family: "Roboto";
   font-style: normal;
-  font-size: 24px;
+  font-size: 14px;
   font-weight: normal;
   letter-spacing: 0.03em;
+  line-height: 24px;
   color: #757575;
 }
 
@@ -492,34 +493,35 @@ footer .container .footer__subscription input {
 }
 
 /* Portfolio filter  ========================*/
-.buttons {
+.projects {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.buttons .buttons-filter {
+.projects .buttons-filter {
   display: flex;
   justify-content: center;
   margin-bottom: 34px;
 }
 
-.buttons .buttons-filter li:not(:last-child) {
+.projects .buttons-filter li:not(:last-child) {
   margin-right: 8px;
 }
 
-.buttons .buttons-filter button {
+.projects .buttons-filter button {
   font-family: "Roboto";
   font-style: normal;
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 0.03em;
   color: #212121;
+  height: 38px;
   border-radius: 4px;
   border: none;
   padding: 6px 22px 6px 22px;
 }
 
-.buttons .buttons-filter button:hover, .buttons .buttons-filter button:focus {
+.projects .buttons-filter button:hover, .projects .buttons-filter button:focus {
   color: white;
   background-color: #2196f3;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
